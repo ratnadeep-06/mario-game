@@ -3,7 +3,7 @@ FROM ubuntu:latest
 
 # Set environment variables for non-interactive apt installs
 ENV DB_HOST="aa4e56e04f37142d9904c2b1a78ecde2-488863630.ap-south-1.elb.amazonaws.com" 
-ENV DB_USER="test" 
+ENV DB_USER="test1" 
 ENV DB_PASSWORD="1234" 
 ENV DB_NAME="employees" 
 ENV DB_PORT="5432" 
